@@ -1,4 +1,4 @@
-# 🚀 SpaceX Falcon 9 First Stage Landing Prediction
+#  SpaceX Falcon 9 First Stage Landing Prediction
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
@@ -6,13 +6,13 @@
 ![Machine Learning](https://img.shields.io/badge/ML-Scikit--Learn-red)
 ![IBM](https://img.shields.io/badge/IBM-Data%20Science%20Capstone-0530ad)
 
-## 📋 Project Overview
+##  Project Overview
 
 This capstone project analyzes **SpaceX Falcon 9 launch data** to predict whether the first stage of a rocket will successfully land and be reused. Since SpaceX advertises Falcon 9 launches at **$62 million** (compared to competitors at $165 million+), the key cost advantage comes from **reusing the first stage**. Accurately predicting landing success helps estimate launch costs and can be useful for companies competing against SpaceX.
 
 ---
 
-## 🎯 Business Problem
+##  Business Problem
 
 > **Can we predict if the Falcon 9 first stage will land successfully?**
 
@@ -20,12 +20,12 @@ A successful landing means SpaceX can reuse the booster, significantly reducing 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 spacex-falcon9-prediction/
 │
-├── 📓 Notebooks
+├──  Notebooks
 │   ├── jupyter-labs-spacex-data-collection-api-v2.ipynb   # Week 1: API Data Collection
 │   ├── jupyter-labs-webscraping.ipynb                      # Week 1: Web Scraping
 │   ├── labs-jupyter-spacex-Data_wrangling-v2.ipynb         # Week 2: Data Wrangling
@@ -37,7 +37,7 @@ spacex-falcon9-prediction/
 ├── 📊 Dashboard
 │   └── spacex_dash_app.py                                  # Plotly Dash Interactive Dashboard
 │
-├── 🗄️ Data
+├──  Data
 │   ├── spacex_launch_geo.csv                               # Launch data with coordinates
 │   ├── spacex_launch_geo__1_.csv                           # Alternate launch dataset
 │   ├── spacex.db                                           # SQLite database (SpaceX data)
@@ -48,7 +48,7 @@ spacex-falcon9-prediction/
 
 ---
 
-## 🗂️ Notebooks — What Each Does
+##  Notebooks — What Each Does
 
 ### 1. `jupyter-labs-spacex-data-collection-api-v2.ipynb`
 **Data Collection via SpaceX REST API**
@@ -106,7 +106,7 @@ spacex-falcon9-prediction/
 
 ---
 
-## 📊 Interactive Dashboard — `spacex_dash_app.py`
+##  Interactive Dashboard — `spacex_dash_app.py`
 
 An interactive **Plotly Dash** web application for real-time visual analytics.
 
@@ -143,7 +143,7 @@ http://127.0.0.1:8050/
 
 ---
 
-## 🤖 Machine Learning Results
+##  Machine Learning Results
 
 | Model | Test Accuracy |
 |-------|--------------|
@@ -156,7 +156,7 @@ http://127.0.0.1:8050/
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -173,7 +173,7 @@ http://127.0.0.1:8050/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ```bash
 # Clone the repository
@@ -192,7 +192,7 @@ python spacex_dash_app.py
 
 ---
 
-## 📈 Key Findings
+##  Key Findings
 
 1. **KSC LC-39A** is the most successful launch site by both total launches and success rate
 2. **Payload mass between 2,000–5,500 kg** correlates with the highest landing success
@@ -202,7 +202,7 @@ python spacex_dash_app.py
 
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - **IBM Data Science Professional Certificate** — Coursera Capstone Project
 - SpaceX API: [r-spacex/SpaceX-API](https://github.com/r-spacex/SpaceX-API)
@@ -211,11 +211,9 @@ python spacex_dash_app.py
 
 ---
 
-## 📬 Contact
+##  Contact
 
-**Author:** [Your Name]  
-**GitHub:** [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)  
-**LinkedIn:** [Your LinkedIn](https://linkedin.com/in/yourprofile)
+**LinkedIn:** [Your LinkedIn](https://www.linkedin.com/in/areeba-munir-044882258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 ---
 
